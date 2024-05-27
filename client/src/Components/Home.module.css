@@ -1,0 +1,738 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+.heading{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 100px 250px;
+    background-image: url('https://preview.colorlib.com/theme/karma/img/banner/banner-bg.jpg');
+    background-size: 1500px 800px;
+   background-repeat: no-repeat;
+   background-position: top right;
+}
+
+.heading .content{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid red; */
+   }
+   .heading .content h2{
+    font-size: 65px;
+   }
+   .heading .content p{
+    margin: 25px 0px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #bcbcbc;
+   }
+   .heading .content button{
+    height: 55px;
+    width: 55px;
+    font-size: 30px;
+   border-radius: 50%;
+    background-color: #ff8b00;
+    color: white;
+    border: none;
+   
+   } 
+
+.heading .image{
+    /* border: 1px solid red; */
+    margin-right: -80px;
+    margin-left: 50px;
+    height: 400px;
+    width: 800px;
+}
+
+.logos{
+    height: 330px;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 80px 180px;
+}
+.logos .logo{
+    display: flex;
+    height: 200px;
+    width: 1300px;
+    /* border: 1px solid red; */
+    box-shadow: 5px 5px 5px 10px #ebe8e8;
+    padding: 0px 150px;
+    background-color: #ffffff;
+}
+.logo .logo1{
+    height: 200px;
+    width: 350px;
+ border: 1px solid #eeeeee;
+ border-top: none;
+ border-bottom: none;
+ border-left: none;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+}
+.logo .logo1 h2{
+    color: #454343;
+    font-size: 20px;
+}
+.logo .logo1 h3{
+    color: #777777;
+    font-size: 18px;
+}
+.logo .logo2{
+    height: 200px;
+    width: 300px;
+   border-left: #eeeeee;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+    margin: 10px;
+   
+}
+.logo .logo2 h2{
+    color: #454343;
+    font-size: 20px;
+}
+.logo .logo2 h3{
+    color: #777777;
+    font-size: 18px;
+}
+.logo .logo3{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+    border-top: none;
+    border-bottom: none;
+}
+.logo .logo3 h2{
+    color: #454343;
+    font-size: 20px;
+}
+.logo .logo3 h3{
+    color: #777777;
+    font-size: 18px;
+   
+}
+.logo .logo4{
+    height: 200px;
+    width: 300px;
+    border: 1px solid #eeeeee;
+    text-align: center;
+    padding: 30px;
+    line-height: 40px;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-right: none;
+}
+.logo .logo4 h2{
+    color: #454343;
+    font-size: 20px;
+}
+.logo .logo4 h3{
+    color: #777777;
+    font-size: 18px;
+}
+
+.images{
+    height: 550px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    padding: 10px 180px;
+}
+.images .imag{
+   height: 520px; 
+   width: 1000px;
+   /* border: 1px solid red; */
+   display: flex;
+   flex-wrap: wrap;
+   padding: 20px 80px;
+ }
+ .imag img{
+    margin: 5px;
+ }
+.image1{
+    position: relative;
+    z-index: 1;
+}
+.sports{
+    /* border: 1px solid red; */
+    height: 20px; 
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left:5px;
+    bottom: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+   opacity: 0;
+   text-align: center;
+   padding: 100px;
+   background-color: rgba(72, 69, 69, 0.637);
+}
+.image1:hover .sports{
+    opacity: 1;
+    height: 230px;
+    width: 500px;
+}
+
+.image2{
+    position: relative;
+    z-index: 1;
+}
+.shoes{
+    /* border: 1px solid red; */
+    height: 20px; 
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left:5px;
+    bottom: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+   opacity: 0;
+   text-align: center;
+   padding: 100px;
+   background-color: rgba(72, 69, 69, 0.637);
+}
+.image2:hover .shoes{
+    opacity: 1;
+    height: 230px;
+    width: 250px;
+}
+.image3{
+    position: relative;
+    z-index: 1;
+}
+.legs{
+    /* border: 1px solid red; */
+    height: 20px; 
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left:5px;
+    bottom: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+   opacity: 0;
+   text-align: center;
+   padding: 100px;
+   background-color: rgba(72, 69, 69, 0.637);
+}
+.image3:hover .legs{
+    opacity: 1;
+    height: 230px;
+    width: 250px;
+}
+.image4{
+    position: relative;
+    z-index: 1;
+}
+.boots{
+    /* border: 1px solid red; */
+    height: 20px; 
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    left:5px;
+    bottom: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+   opacity: 0;
+   text-align: center;
+   padding: 100px;
+   background-color: rgba(72, 69, 69, 0.637);
+}
+.image4:hover .boots{
+    opacity: 1;
+    height: 230px;
+    width: 500px;
+}
+
+ .images .watch{
+    height: 500px;
+    width: 400px;
+    /* border: 1px solid red; */
+    padding: 20px 20px;
+   }
+  .watch  .watch_image{
+    position: relative;
+    z-index: 1;
+}
+.watch_image .wathes{
+    /* border: 1px solid red; */
+    height: 20px; 
+    width: 200px;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    left:0px;
+    bottom: 0;
+    right: 0;
+    transition: all ease-in-out 0.3s;
+   opacity: 0;
+   text-align: center;
+   padding: 200px 0px ;
+   background-color: rgba(72, 69, 69, 0.637);
+}
+.watch_image:hover .wathes{
+    opacity: 1;
+    height: 480px;
+    width: 350px;
+}
+
+.arrows{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrows .arrow{
+ 
+    height: 150px;
+    width: 680px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 20px;
+}
+.arrow h2{
+    font-size: 40px;
+}
+
+.arrow p{
+    font-size: 18px;
+    margin: 15px;
+    color: #969696;
+}
+  
+.products{
+    height: 1000px;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding:0px 80px;
+}
+
+.products .product{
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-around;
+  
+}
+
+.product .heart{
+    height: 450px;
+    width: 330px;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 20px 10px;
+    transition: all 0.3s;
+
+}
+.product .heart:hover{
+    transform: scale(1.1,1.1);
+}
+.heart h2{
+    font-size: 16px;
+    color: #222222;
+    margin: 10px 0px;
+}
+.heart p{
+    color: #434343;
+    font-weight: bold;
+    font-size: 20px;
+}
+ 
+.heart p span{
+    padding: 30px;
+}
+
+.heart .symbols{
+   height: 50px;
+   width: 100%;
+   /* border: 1px solid red; */
+   margin-top: 10px;
+}
+
+.heart .symbols .bag{
+    display: flex;
+   
+   }
+   .symbols .bag p{
+    /* border: 1px solid red; */
+    margin: 10px ;
+    padding: 9px;
+    background-color: #828bb2;
+    color: white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+   }
+
+   .symbols .bag p:hover{
+    background-color:#d07116;
+   }
+
+   .arrows{
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weeks{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weeks .deals{
+ 
+    height: 150px;
+    width: 680px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 20px;
+}
+.deals h2{
+    font-size: 40px;
+}
+
+.deals p{
+    font-size: 18px;
+    margin: 15px;
+    color: #969696;
+}
+
+
+.detalis{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalis .detail{
+
+    height: 500px;
+    width: 900px;
+    /* border: 1px solid blue; */
+    display: flex;
+   flex-wrap: wrap;
+   padding:  50px 30px ;
+   
+}
+.heeals{
+    height: 100px;
+    width: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0px 15px;
+}
+.heeals .heal img{
+    height: 80px;
+    width: 80px;
+}
+.heeals .black{
+    padding: 15px 5px;
+}
+
+.heeals .black h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.heeals .black h3:hover{
+    color: #d07116;
+}
+
+.man{
+    height: 100px;
+    width: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0px 10px;
+}
+.man .mans img{
+    height: 80px;
+    width: 80px;
+}
+.man .boy{
+    padding: 15px 5px;
+}
+
+.man .boy h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.man .boy h3:hover{
+    color: #d07116;
+}
+
+.lays{
+    height: 100px;
+    width: 250px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: 0px 10px;
+}
+.lays .lay img{
+    height: 80px;
+    width: 80px;
+}
+.lays .lace{
+    padding: 15px 5px;
+}
+
+.lays .lace h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.lays .lace h3:hover{
+    color: #d07116;
+}
+
+.handsome{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.handsome .hand img{
+    height: 80px;
+    width: 80px;
+}
+.handsome .hands{
+    padding: 15px 5px;
+}
+
+.handsome .hands h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.handsome .hands h3:hover{
+    color: #d07116;
+}
+
+.girl{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.girl .girls img{
+    height: 80px;
+    width: 80px;
+}
+.girl .girl_product{
+    padding: 15px 5px;
+}
+
+.girl .girl_product h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.girl .girl_product h3:hover{
+    color: #d07116;
+}
+.girl_heal{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.girl_heal .girl_heals img{
+    height: 80px;
+    width: 80px;
+}
+.girl_heal .karma{
+    padding: 15px 5px;
+}
+
+.girl_heal .karma h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.girl_heal .karma h3:hover{
+    color: #d07116;
+}
+.theme{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.theme .themes img{
+    height: 80px;
+    width: 80px;
+}
+.theme .theme_product{
+    padding: 15px 5px;
+}
+
+.theme .theme_product h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.theme .theme_product h3:hover{
+    color: #d07116;
+}
+
+
+.tshirt{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.tshirt .shirts img{
+    height: 80px;
+    width: 80px;
+}
+.tshirt .short{
+    padding: 15px 5px;
+}
+
+.tshirt .short h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.tshirt .short h3:hover{
+    color: #d07116;
+}
+
+.yellow{
+    height: 100px;
+    width: 250px;
+    margin: 0px 10px;
+    display: flex;
+}
+.yellow .yellows img{
+    height: 80px;
+    width: 80px;
+}
+.yellow .yellow_shoe{
+    padding: 15px 5px;
+}
+
+.yellow .yellow_shoe h3{
+    font-size: 16px;
+    color: #787278;
+   margin: 5px;
+}
+.yellow .yellow_shoe h3:hover{
+    color: #d07116;
+}
+
+.detalis .wathces{
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+.wathces img{
+    height: 400px;
+   width: 300px;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.913);
+    color: white;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div
+{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.footer_company
+{
+    color: rgb(189, 185, 185);
+}
+.footer_company h2
+{
+    font-weight: 500;
+    color: white;
+}
+
+.footer_company p:nth-child(2)
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer_useful_links ul,.footer_our_services ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer_useful_links ul li,.footer_our_services ul li
+{
+    margin-bottom: 20px;
+   color: rgb(189, 185, 185); ;
+}
+.footer_useful_links ul li::before,.footer_our_services ul li::before
+{
+    content: ">";
+    margin-right: 10px;
+    color: #1bbd36;
+    font-weight: 500;
+}
+
+.footer_form p
+{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer_form .subscribe input
+{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.footer_form .subscribe
+{
+    position: relative;
+}
+.footer_form .subscribe button
+{
+    padding: 15px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #1bbd36;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

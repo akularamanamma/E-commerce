@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    padding: 30px;
+   /* position: fixed; */
+   }
+nav ul{
+    display: flex;
+    list-style: none;
+}  
+nav ul li a{
+  margin: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+nav ul li a:hover{
+    color: pink;
+    
+} 
+.logos ul{
+    margin-left: 350px;
+}
+.logos ul li{
+    margin-left: 30px;
+}
+
+
+.logos ul li input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    padding: 15px;
+}
+
+.logos ul li:hover{
+   color: blue;
+}

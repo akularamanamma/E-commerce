@@ -1,0 +1,163 @@
+.info_block{
+    height: 129px;
+    width: 980px;
+    margin: 47px;
+    margin-left: 288px;
+    padding: 30px;
+    background-color: white;
+    /* border: 2px solid red; */
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.819);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ .info_block .box{
+    height: 100px;
+    width: 240px;
+    /* border: 2px solid red; */
+    padding: 5px;
+    display: flex;
+
+}
+
+.info_block .circle{
+    height: 50px;
+    width: 50px;
+    border: 2px solid #1bbd36;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: #1bbd36;
+    padding: 8px;
+}
+
+.info_block .circle:hover{
+    background-color: #1bbd36;
+    color: white;
+}
+
+ .info_block ul{
+    height: 90px;
+    width: 170px;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+
+
+.table_box{
+    height: 380px;
+    width: 980px;
+    /* border: 2px solid rgba(128, 128, 128, 0.119); */
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.819);
+    background-color: white;
+    padding: 50px 150px;
+    margin-left: 287px;
+}
+
+ .table_box input{
+    height: 40px;
+    width: 300px;
+    padding: 20px;
+ }
+
+ .table_box .sub{
+    height: 40px;
+    width: 630px;
+ }
+
+ .table_box textarea{
+    height: 100px;
+    width: 630px;
+    padding: 20px;
+ }
+ .table_box button{
+    background-color: green;
+    height: 40px;
+    width: 200px;
+    border: none;
+    color: white;
+    margin-left: 180px;
+    border-radius: 5px;
+ }
+
+ footer
+{
+    background-color: rgba(0, 0, 0, 0.913);
+    color: white;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div
+{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.footer_company
+{
+    color: rgb(189, 185, 185);
+}
+.footer_company h2
+{
+    font-weight: 500;
+    color: white;
+}
+
+.footer_company p:nth-child(2)
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer_useful_links ul,.footer_our_services ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer_useful_links ul li,.footer_our_services ul li
+{
+    margin-bottom: 20px;
+   color: rgb(189, 185, 185); ;
+}
+.footer_useful_links ul li::before,.footer_our_services ul li::before
+{
+    content: ">";
+    margin-right: 10px;
+    color: #1bbd36;
+    font-weight: 500;
+}
+
+.footer_form p
+{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer_form .subscribe input
+{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.footer_form .subscribe
+{
+    position: relative;
+}
+.footer_form .subscribe button
+{
+    padding: 15px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #1bbd36;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}

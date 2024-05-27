@@ -1,0 +1,15 @@
+.SingleProduct{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid red; */
+    line-height: 50px;
+    text-align: center;
+    /* margin: 20px; */
+    background-color: rgb(7, 103, 103);
+    color: white;
+}
+
+.SingleProduct img{
+  
+  border-radius: 5px;
+}
